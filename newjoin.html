@@ -1,0 +1,53 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Join</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="./js/newjoin.js"></script>
+    
+</head>
+<body class="body">
+
+    <nav class="box">
+        <h2>LEE CHAN YOUNG</h2>
+        <p id="rights">© 2021. Lee chan young. All rights reserved.</p>
+
+        <img src="https://i.ibb.co/jD8y1Cj/Kakao-Talk-20210829-143638467.png" alt="주먹치는이모지">
+        <div class="littlemenu_1">
+            <p><a href="../leechanyoung/index.html">Home</a></p>
+            <p><a href="../leechanyoung/about_me.html">About Me</a></p>
+            <p><a href="../leechanyoung/newlogin.html">Login</a></p>
+
+        </div>
+    </nav>
+
+    <form action="./newlogin.html" onsubmit="return submitForm();"  class="wrapper"  id="frm">
+        <h1 class="noFont">JOIN</h1>
+        <div id="input1234">
+            <p class="alert" id="alertId"></p>
+            <input type="text" name="id" id="id" placeholder="아이디" required><br>
+            <p class="alert" id="alertPwd"></p>
+            <input type="password" name="pwd" id="pwd" placeholder="비밀번호" required><br>
+            <p class="alert" id="alertName"></p>
+            <input type="text" name="name" id="userName" placeholder="이름" required><br>
+            <p class="alert" id="alertPhone"></p>
+            <input type="number" name="phone" id="phone" placeholder="휴대전화번호" required><br>
+        </div>
+        <div id="bdaybox">
+            <input type="date" name="bday" id="bday" required>
+            <input type="radio" name="gender" id="gender-male" value="female" required>
+            <label for="female">여성</label>
+            <input type="radio" name="gender" id="gender-female" value="male">
+            <label for="male">남성</label>
+        </div>
+        <br>
+        <div id="termbox">
+    </form>
+        <br><br>
+        <input type="submit" value="가입하기" id="signupBtn">
+    </div>
+
+</body>
+</html>

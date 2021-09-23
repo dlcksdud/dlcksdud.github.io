@@ -1,0 +1,373 @@
+
+@font-face {
+    font-family: 'UhBeeSeulvely';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_five@.2.0/UhBeeSeulvely.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'KyoboHand';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/KyoboHand.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+/*공통*/
+
+html {
+    background-color: khaki;
+    scroll-behavior: smooth;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/*목차 style*/
+.allbody {
+    text-align: center;
+    margin: 87px 8px;
+}
+.wrap {
+    width: 40%;
+	margin: 10px auto;
+	position: relative;
+}
+.image {
+    width: 100%;
+	vertical-align: middle;
+}
+.image img {
+    width: 575px;
+    border-radius: 50%;
+}
+
+.text {
+    padding: 5px 10px;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate( -50%, -50% );
+    width: 410px;
+    height: 433px;
+    opacity: 0;
+    
+    font-family: 'UhBeeSeulvely';
+}
+
+.text:hover{
+    opacity: 1;
+}
+.menu {
+    padding-left: 0;
+    background-color: white;
+    opacity: .6;
+    margin: 35px;
+    padding: 26px 0px;
+}
+
+.cl_menu {
+background-color: white;
+}
+
+.menu li {
+    list-style: none;
+    font-size: 30px;
+}
+.menu li a:hover {
+    color: #929f7e;
+}
+.menu li a {
+    text-decoration: none;
+    color: black;
+}
+.text h1 {
+    font-size: 50px;
+    margin: 10px;
+}
+
+
+/*style*/
+.body {
+    margin: 0px;
+    height: 100%;
+}
+section {
+    position: initial;
+    height: 706px;
+    overflow: hidden;
+    color: black;
+    text-align: center;
+    font-family: 'UhBeeSeulvely';
+}
+.section1 {
+    height: 1100px;
+    padding-top: 170px;
+    
+}
+.section1 h1 {
+    margin: 30px 0px 0px 0px;
+}
+
+.keywords > ul {
+    
+    padding: 10px;
+    text-align: center;
+    list-style: none;
+    display: flex;
+}
+.keywords > ul > li > p:not(p.sentence) {
+    font-size: 50px;
+    line-height: 150px;
+    margin: 0px 10px 0px 10px;
+}
+.keywords-list1, .keywords-list2, .keywords-list3 {
+    margin: auto;
+    padding: 0px;
+    height: 795px;
+    width: 350px;
+}
+.keywords-list1>img, .keywords-list2 > img , .keywords-list3> img {
+    max-width: 355px;
+    height: 420px;
+    border-radius: 50%;
+}
+.sentence {
+    font-size: 25px;
+    width: 400px;
+}
+
+
+/*---------------------------------------*/
+
+.section2 {
+    padding-top: 170px;
+    height: 3328px;
+    margin-bottom: 20px;
+}
+#caremogi {
+    margin: 0px 40px;
+    width: 157px;
+}
+#planeemoji {
+    margin: 0px 40px 35px;
+    width: 140px;
+}
+.drive {
+    margin: 10px;
+    width: 350px;
+    border-radius: 20%;
+}
+.drive:hover {
+    opacity: 0.3;
+}
+.photodiv1 {
+    margin: 34px 0px 80px;
+}
+.nara {
+    width: 175px
+}
+
+.travelimg img {
+    width: 305px;
+}
+
+.photodiv2 img {
+    width: 316px;
+    border-radius: 20%;
+    margin: 13px
+}
+.photodiv2 img:hover {
+    opacity: 0.3;
+}
+
+
+.section3 {
+    height: 773px;
+}
+
+
+/*로그인 회원가입style*/
+#login {
+    text-align: center;
+    margin: auto 0;
+    width: 100%;
+}
+.wrapper {
+    position: relative;
+    width: 500px;
+    margin: 0 auto;
+    padding-top: 180px;
+    text-align: center;
+}
+
+
+#input {
+    width: 400px;
+    margin: 0 auto;
+    
+}
+
+#id, #pwd, #userName, #phone, #userId, #pwdCheck, #email {
+    width: 380px;
+    height: 50px;
+    border: none;
+    background-color: #d9cc45ad;
+    margin-bottom: 10px;
+    padding: 0 0 0 15px;
+    color: rgb(0, 0, 0);
+}
+
+#bday {
+    width: 259px;
+    height: 50px;
+    border: none;
+    background-color: #d9cc45ad;
+    margin: 15px 0px;
+    padding: 0 0 0 15px;
+    color: rgb(0, 0, 0);
+}
+
+#tel1, #tel2, #tel3 {
+    width: 110px;
+    height: 50px;
+    border: none;
+    background-color: #d9cc45ad;
+    margin-bottom: 10px;
+    padding: 0 0 0 15px;
+    color: rgb(0, 0, 0);
+}
+
+
+#login, #signup, #signupBtn {
+    border-radius: 50%;
+    width: 90px;
+    height: 80px;
+    background-color: darkkhaki;
+    font-family: 'UhBeeSeulvely';
+    font-size: 15px;
+}
+
+
+
+
+/*회원가입 join style*/
+#join {
+    text-align: center;
+    margin: 170px 0px 0px;
+    width: 100%;
+    font-family: 'UhBeeSeulvely';
+}
+#enroll {
+    padding: 0px 50px;
+    text-align: center;
+    margin: auto;
+}
+.noFont {
+    font-family: 'UhBeeSeulvely';
+}
+
+/*로드맵*/
+.section3 .circle {
+    background-color: burlywood;
+    border-radius: 50%;
+    font-weight: bold;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin: auto;
+}
+
+.memo {
+    width: 600px;
+    margin: 28px auto;
+    font-size: 20px;
+    font-family: 'KyoboHand';
+}
+
+
+
+
+/*상단바*/
+.box {
+    background-color: rgba(255, 250, 205, 0.9);
+    width: 100%;
+    height: 175px;
+    padding: 0px;
+    font-family: 'UhBeeSeulvely';
+    position: fixed;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box img {
+    width: 185px;
+    margin: auto;
+    display: block;
+    left: 44%;
+    transform: translateX(-179px);
+}
+
+.box h2 {
+    margin: 61px 0px;
+    padding: 10px;
+    float: left;
+    height: 22px;
+}
+#rights {
+    float: left;
+    height: 15px;
+    transform: translate(-243px, 83px);
+}
+.littlemenu {
+    padding: 0px;
+    margin: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    float: right;
+}
+.littlemenu_1 {
+    padding: 0px;
+    margin: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    float: right;
+}
+.littlemenu p {
+    margin: 6.3px
+}
+.littlemenu_1 p {
+    margin: 23px;
+}
+.box ul li {
+    list-style: none;
+    margin: 5px;
+}
+.littlemenu p a {
+    text-decoration: none;
+    color: black;
+    padding: 0 10px;
+    font-size: 20px;
+}
+.littlemenu_1 p a {
+    
+    text-decoration: none;
+    color: black;
+    padding: 0 10px;
+    font-size: 20px;
+}
+.box ul li a:hover {
+    color: darkgoldenrod;
+}
+
+footer {
+    text-align: center;
+    font-family: 'UhBeeSeulvely';
+    background-color: rgba(255, 250, 205, 0.9);
+    height: 70px;
+    padding: 7px;
+}
+
